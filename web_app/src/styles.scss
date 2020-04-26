@@ -1,0 +1,38 @@
+@import '~reset-css/sass/reset';
+
+body {
+  position: relative;
+  background-color: black;
+}
+
+#spandau {
+  &-container {
+    height: 100vh;
+  }
+
+  &-kite {
+    position: absolute;
+    // height: 50vh;
+  }
+
+  &-background {
+    background-color: skyblue;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+// #visual-1 {
+//   position: absolute;
+//   width: 100%;
+//   opacity: 0.6;
+//   background-color: red;
+//   bottom: 0;
+//   transition: height 0.2s, opacity 0.1s;
+// }
